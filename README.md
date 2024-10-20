@@ -1,5 +1,5 @@
 # bedrockdots
-my dotfiles from my Bedrock Linux installation
+Dotfiles from my Bedrock Linux installation
 
 bar: waybar
 term: alacritty
