@@ -1,43 +1,43 @@
 {
-	"position": "left",
-	"layer": "top",
-	"margin-top": 15,
-	"margin-bottom": 15,
-	"margin-left": 15,
-	"modules-left": [
-		"custom/menu",
-		"hyprland/workspaces"
-	],
-	"modules-center": [
+        "position": "left",
+        "layer": "top",
+        "margin-top": 170,
+        "margin-bottom": 170,
+        "margin-left": 15,
+        "modules-left": [
+                "custom/menu",
+                "hyprland/workspaces"
+        ],
+        "modules-center": [
 
-	],
-	"modules-right": [
-		"tray",
-		"pulseaudio",
-		"clock"
-	],
-	"custom/menu": {
-		"format": "󱄅",
-		"on-click": "wofi --show drun"
-	},
-	"hyprland/workspaces": {
-		"format": "{icon}",
-		"format-icons": {
-		"default": "",
-		"active": "",
-		//"default": "○",
-		//"active": "⦿"
-		},
-	},
-	"tray": {
-		"icon-size": 16,
-        	"rotate": 0,
-        	"spacing": 3		
-	},
-	"clock": {
-		"format": "{:%H\n%M}"
-	},
-	"pulseaudio": {
+        ],
+        "modules-right": [
+                "tray",
+                "pulseaudio",
+                "clock"
+        ],
+        "custom/menu": {
+                "format": "󱄅",
+                "on-click": "rofi -show drun"
+        },
+        "hyprland/workspaces": {
+                "format": "{icon}",
+                "format-icons": {
+                "default": "",
+                "active": "",
+                //"default": "○",
+                //"active": "⦿"
+                },
+        },
+        "tray": {
+                "icon-size": 16,
+                "rotate": 0,
+                "spacing": 3
+        },
+        "clock": {
+                "format": "{:%H\n%M}"
+        },
+        "pulseaudio": {
         "format": "{icon}",
       //  "on-click-middle": "eww open audio_menu --toggle --config ~/.config/eww/aud_men/",
         "rotate": 0,
