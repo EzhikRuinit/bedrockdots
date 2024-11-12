@@ -24,9 +24,6 @@ window#waybar {
         padding-right: 2px;
         background-color: #121212;
 }
-#window {
-  padding-left: 15px;
-}
 #pulseaudio {
         color: #fff;
   background-color: #191919;
@@ -52,13 +49,13 @@ window#waybar {
 #workspaces {
         margin: 7px;
         color: #fff;
-        font-size: 20px;
 }
 #workspaces button {
         color: #fff;
         background-color: rgba(0, 0, 0, 0);
         margin: 2px;
-        padding-left: 2px;
+        padding-left: 0px;
+  padding-right: 7px;
         border-radius: 5px;
 }
 
