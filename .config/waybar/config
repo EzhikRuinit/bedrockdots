@@ -21,7 +21,7 @@
                 "on-click": "rofi -show drun"
         },
         "hyprland/workspaces": {
-                "format": "{icon}",
+                "format": " {name}",
                 "format-icons": {
                 "default": "",
                 "active": "",
