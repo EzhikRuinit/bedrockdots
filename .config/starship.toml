@@ -2,7 +2,7 @@
 
 # Use custom format
 format = '''
-[u/basya](white)[ :: ](fg:99)$directory$rust$package[ 󰄾 ](fg:140)'''
+$directory$rust$package[ λ > ](fg:blue)'''
 
 
 
@@ -13,4 +13,4 @@ format = '''
 add_newline = false
 
 [directory]
-format = "[$path](fg:61)"
+format = "[$path](fg:cyan)"
