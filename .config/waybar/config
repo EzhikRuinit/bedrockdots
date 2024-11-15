@@ -1,43 +1,53 @@
 {
-	"position": "left",
-	"layer": "top",
-	"margin-top": 15,
-	"margin-bottom": 15,
-	"margin-left": 15,
-	"modules-left": [
-		"custom/menu",
-		"hyprland/workspaces"
-	],
-	"modules-center": [
-
-	],
-	"modules-right": [
-		"tray",
-		"pulseaudio",
-		"clock"
-	],
-	"custom/menu": {
-		"format": "󱄅",
-		"on-click": "wofi --show drun"
+        "position": "top",
+        "layer": "top",
+        "margin-top": 15,
+        "margin-right": 15,
+        "margin-left": 15,
+        "modules-left": [
+                "custom/menu",
+		"sway/workspaces"
+        ],
+        "modules-center": [
+		"sway/window"
+        ],
+        "modules-right": [
+                "tray",
+                "pulseaudio",
+                "clock"
+        ],
+        "custom/menu": {
+                "format": "Λ",
+                "on-click": "rofi -show drun"
+        },
+	"sway/window": {
+		"format": "{}",
+		"max-length": 100
 	},
-	"hyprland/workspaces": {
-		"format": "{icon}",
-		"format-icons": {
-		"default": "",
-		"active": "",
-		//"default": "○",
-		//"active": "⦿"
-		},
-	},
-	"tray": {
-		"icon-size": 16,
-        	"rotate": 0,
-        	"spacing": 3		
-	},
-	"clock": {
-		"format": "{:%H\n%M}"
-	},
-	"pulseaudio": {
+        "sway/workspaces": {
+                "format": " {icon}",
+                "format-icons": {
+                "1": "01",
+                "2": "02",
+		"3": "03",
+		"4": "04",
+		"5": "05",
+		"6": "06",
+		"7": "07",
+		"8": "08",
+		"9": "09",
+		"10": "10"
+                },
+        },
+        "tray": {
+                "icon-size": 16,
+                "rotate": 0,
+                "spacing": 3
+        },
+        "clock": {
+                "format": "{:%H:%M}"
+        },
+        "pulseaudio": {
         "format": "{icon}",
       //  "on-click-middle": "eww open audio_menu --toggle --config ~/.config/eww/aud_men/",
         "rotate": 0,
