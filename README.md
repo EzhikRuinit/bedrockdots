@@ -1,10 +1,10 @@
-# bedrockdots
-Dotfiles from my Bedrock Linux installation
+# bedrockdots | glazewm
+Dotfiles from my ~~Bedrock Linux~~ Windows 11 installation
 
-bar: waybar
-term: alacritty
-wm: hyprland
-shell: bash+starship
+bar: yasb
+term: wezterm
+wm: glazewm
+shell: posh (powershell)+starship
 
 preview:
-![image](https://github.com/user-attachments/assets/84e75efd-325b-4c63-84df-669ec00780c6)
+![image](https://github.com/user-attachments/assets/a339e0c9-a62d-4a05-bf55-a4fb99a2d893)
