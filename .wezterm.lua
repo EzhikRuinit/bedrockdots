@@ -154,8 +154,8 @@ return {
                 selection_bg = "#edeff0",
                 scrollbar_thumb = "#edeff0",
                 split = "#090909",
-                ansi = { "#232526", "#df5b61", "#78b892", "#de8f78", "#6791c9", "#bc83e3", "#67afc1", "#e4e6e7" },
-                brights = { "#2c2e2f", "#e8646a", "#81c19b", "#e79881", "#709ad2", "#c58cec", "#70b8ca", "#f2f4f5" },
+                ansi = { "#3D3D3D", "#6673BF", "#3EA290", "#B0EAD9", "#31658C", "#596196", "#8292B2", "#95A7CC" },
+                brights = { "#4D4D4D", "#899AFF", "#52AD91", "#B0EAD9", "#477AB3", "#7882BF", "#95A7CC", "#EDEFF2" },
                 indexed = { [136] = "#edeff0" },
                 tab_bar = {
                         active_tab = {
