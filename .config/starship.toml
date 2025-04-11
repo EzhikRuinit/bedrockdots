@@ -1,16 +1,4 @@
-# ~/.config/starship.toml
-
-# Use custom format
-format = '''
-[u/basya](white)[ :: ](fg:99)$directory$rust$package[ 󰄾 ](fg:140)'''
-
-
-
-# Wait 10 milliseconds for starship to check files under the current directory.
-
-
-# Disable the blank line at the start of the prompt
 add_newline = false
 
-[directory]
-format = "[$path](fg:61)"
+format = '''
+[w*ndows](white) $directory> '''
