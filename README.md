@@ -1,10 +1,10 @@
 # bedrockdots
-Dotfiles from my Bedrock Linux installation
+Dotfiles from my EndeavourOS installation
 
-bar: waybar
-term: alacritty
-wm: hyprland
-shell: bash+starship
+bar: waybar;
+term: kitty;
+wm: labwc;
+shell: bash
 
 preview:
-![image](https://github.com/user-attachments/assets/84e75efd-325b-4c63-84df-669ec00780c6)
+![image](https://github.com/user-attachments/assets/fee7fb62-b02b-474a-961f-4295dcd66483)
