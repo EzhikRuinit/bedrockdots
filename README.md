@@ -1,10 +1,11 @@
 # bedrockdots
 Dotfiles from my EndeavourOS installation
 
-resources
+### resources
 
 wallpapers & themes: https://github.com/diinki/diinki-retrofuture
 
+### apps that were used here
 bar: waybar;
 term: kitty;
 wm: labwc;
