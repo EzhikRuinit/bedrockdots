@@ -2,6 +2,7 @@
 Dotfiles from my EndeavourOS installation
 
 resources
+
 wallpapers & themes: https://github.com/diinki/diinki-retrofuture
 
 bar: waybar;
